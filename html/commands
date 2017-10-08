@@ -1,0 +1,2 @@
+docker build -t app .
+docker run --rm -p 8000:80 -v /Users/Ariel/docker/talk/html/src:/usr/share/nginx/html app

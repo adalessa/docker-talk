@@ -1,0 +1,5 @@
+docker run --name my_mysql -p 3306:3306 -d -e MYSQL_ROOT_PASSWORD=root mysql
+
+mysql -h 127.0.0.1 -u root -p
+
+docker run --link my_mysql:db -p 8080:8080 adminer
