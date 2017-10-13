@@ -1,4 +1,7 @@
-# Docker CheetSheet
+# Docker Cheatsheet
+
+- Este Cheatsheet online https://github.com/adalessa/docker-talk/blob/master/cheatsheet.md
+- Link presentación https://goo.gl/NkzpEY
 
 ### Creates a container of the given image
 ```
