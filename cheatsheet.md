@@ -7,7 +7,7 @@ docker run [options] image_name [command]
 #### Most used options
 You can get this list and more by running `docker run --help`.
 
-- `-p or `--publish` publish a port from the container to your local machine "-p \<host port\>:\<container port\>"
+- `-p` or `--publish` publish a port from the container to your local machine "-p \<host port\>:\<container port\>"
 - `-v` or `--volume` mount a volume from the host to the container "-v /absolut/path/dir:/container/path"
 - `-e` or `--env` set an environment variable for the container "-e \<VariableName\>=VALUE"
 - `-i` or `--interactive` keep STDIN open even if not attached
@@ -41,7 +41,7 @@ docker build <options> <path to directory>
 
 #### Options
 
-- -t set the tag for the builed image
+- `-t` set the tag for the builed image
 
 ### Container management
 
